@@ -1,0 +1,57 @@
+canvas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#deadLabel {
+  font-size: calc(2vw + 2vh);
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+  display: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+#score {
+  font-size: calc(2vw + 2vh);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+#overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 999;
+  display: none;
+}
+
+#restartBtn {
+  position: absolute;
+  width: 20vw;
+  height: 20vh;
+  left: 40vw;
+  top: 40vh;
+  z-index: 1000;
+  background-color: #DF5F00;
+  border: white 0.5vw solid;
+  box-shadow: 0.7vw 0.5vw black;
+  display: none;
+  color: white;
+  font-size: calc(2vw + 2vh);
+}
+
+#restartBtn:hover {
+  cursor: pointer;
+}
